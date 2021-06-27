@@ -56,3 +56,7 @@ document.getElementById("github").onclick = function () {
 document.getElementById("pro1").onclick = function () {
     window.open("https://github.com/Emil-Ey/Emil-Ey.github.io", "_blank");
 };
+
+document.getElementById("cv").onclick = function () {
+    window.open("https://emil-ey.github.io/CV.pdf", "_blank");
+};
