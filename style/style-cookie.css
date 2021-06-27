@@ -1,0 +1,45 @@
+/* ---------COOKIE PAGE--------- */
+body {
+    background-color: rgb(232, 229, 255);
+}
+
+.cookie-btn {
+    border-color: #374054 !important;
+    border-width: 0.1em;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding: 10px;
+    padding-right: 3em;
+    padding-left: 3em; 
+    border-radius: 2em;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.cookie-btn:focus {
+    box-shadow: none;
+}
+
+.cookie-btn:hover {
+    background-color: #374054;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: rgb(3, 0, 51);
+}
+
+.heading1 {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: rgb(3, 0, 51);
+}
+
+#cookie-text {
+    margin: 5% 20%;
+}
