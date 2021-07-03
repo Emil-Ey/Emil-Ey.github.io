@@ -350,7 +350,8 @@ body, html {
 #heading5 {
     text-align: center;
     margin-top: 2%;
-    margin-bottom: 1%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
     color: #fff;
 }
 
