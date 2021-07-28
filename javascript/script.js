@@ -65,6 +65,18 @@ document.getElementById("pro3").onclick = function () {
     window.open("https://eybye-todo.xyz/", "_blank");
 };
 
+document.getElementById("pro4").onclick = function () {
+    window.open("https://github.com/Emil-Ey/ToDoList", "_blank");
+};
+
+document.getElementById("pro5").onclick = function () {
+    window.open("https://travelbuddy.one/", "_blank");
+};
+
+document.getElementById("pro6").onclick = function () {
+    window.open("https://github.com/Emil-Ey/TravelBuddy", "_blank");
+};
+
 document.getElementById("cv").onclick = function () {
     window.open("https://emil-ey.github.io/CV.pdf", "_blank");
 };
