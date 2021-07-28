@@ -57,6 +57,14 @@ document.getElementById("pro1").onclick = function () {
     window.open("https://github.com/Emil-Ey/Emil-Ey.github.io", "_blank");
 };
 
+document.getElementById("pro2").onclick = function () {
+    window.open("https://rotundo.dk", "_blank");
+};
+
+document.getElementById("pro3").onclick = function () {
+    window.open("https://eybye-todo.xyz/", "_blank");
+};
+
 document.getElementById("cv").onclick = function () {
     window.open("https://emil-ey.github.io/CV.pdf", "_blank");
 };
