@@ -80,3 +80,8 @@ document.getElementById("pro6").onclick = function () {
 document.getElementById("cv").onclick = function () {
     window.open("https://emil-ey.github.io/CV.pdf", "_blank");
 };
+
+document.getElementById("cv1").onclick = function () {
+    window.open("https://emil-ey.github.io/CV.pdf", "_blank");
+};
+

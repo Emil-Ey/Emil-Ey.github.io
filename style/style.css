@@ -549,7 +549,7 @@ textarea:hover {
 	padding: 2%;
 	padding-bottom: 0;
 	background-color: #374054;
-	min-height: 200px;
+	min-height: 230px;
 	margin-top: 0;
 }
 
@@ -603,6 +603,36 @@ textarea:hover {
 	color: #fff;
 	text-align: center;
 	margin-top: 3em;
+	margin-bottom: 5%;
+}
+
+.pc-not {
+	visibility: hidden;
+	display: none;
+}
+
+.cv-button {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.cv-button button {
+	background-color: #586580;
+	color: #fff;
+	border: none;
+}
+
+.cv-button button:hover {
+	background-color: #586580;
 }
 
 /*-------MEDIA QUERIES-------*/
@@ -627,6 +657,11 @@ textarea:hover {
 	.pc-only {
 		visibility: hidden;
 		display: none;
+	}
+
+	.pc-not {
+		visibility: visible;
+		display: block;
 	}
 
 	#about2 {
