@@ -4,6 +4,7 @@ body {
 }
 
 .cookie-btn {
+    position: fixed;
     border-color: #374054 !important;
     border-width: 0.1em;
     margin-top: 2em;
