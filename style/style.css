@@ -131,7 +131,7 @@ html {
 #lead-img {
 	z-index: 101;
 	position: relative;
-	width: 50%;
+	width: 45%;
 	left: 6%;
 	top: 5em;
 }
@@ -201,6 +201,7 @@ html {
 	padding: 2%;
 	text-align: center;
 	background-color: #586580;
+	margin-top: -80px
 }
 
 #education h2 {
@@ -216,19 +217,29 @@ html {
 	text-align: left;
 }
 
-.education-block h3 {
+.work-block {
+	max-width: 700px;
+	margin: 0 auto 3% auto;
+	padding: 1%;
+	border: 2px solid #d1eeff;
+	background: rgb(103, 119, 150);
+	text-align: left;
+	border-radius: 10px;
+}
+
+.education-block h3, .work-block h3 {
 	font-weight: 500;
 	float: left;
 	margin: 0;
 	color: #ffffff;
 }
 
-.education-block span {
+.education-block span, .work-block span {
 	color: #e0e0e0;
 	float: right;
 }
 
-.education-block h4 {
+.education-block h4, .work-block h4 {
 	color: #e0e0e0;
 	clear: both;
 	font-weight: 500;
@@ -258,8 +269,13 @@ html {
 
 /*------------SKILLS--------------*/
 #skills {
+	background-color: #374054;
 	padding: 2%;
 	text-align: center;
+}
+
+#skills-header {
+	color: #fff !important;
 }
 
 #skills h2 {
@@ -288,7 +304,8 @@ html {
 
 /*-------PROJECTS----------*/
 #projects {
-	background-color: #374054;
+	background: rgb(55,64,84);
+	background: linear-gradient(180deg, rgba(55,64,84,1) 0%, rgba(88,101,128,1) 100%); 
 }
 
 #projects-inner {
@@ -309,7 +326,7 @@ html {
 .card {
 	text-align: center;
 	padding: 2% 2% 0 2%;
-	border-radius: 0px;
+	border-radius: 5px;
 	background-color: #fff;
 	color: #000;
 }
@@ -361,11 +378,11 @@ html {
 
 #git {
 	text-decoration: none;
-	color: #007bff;
+	color: #55acdf;
 }
 
 #git:hover {
-	color: #586580;
+	color: #397496;
 }
 
 #pro4 {
@@ -550,6 +567,7 @@ textarea:hover {
 	padding-bottom: 0;
 	background-color: #374054;
 	min-height: 230px;
+	max-height: 350px;
 	margin-top: 0;
 }
 
@@ -558,7 +576,7 @@ textarea:hover {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	margin: 2% auto 0 auto;
+	margin: 1% auto 0 auto;
 	width: 100%;
 	max-width: 600px;
 }
@@ -602,8 +620,8 @@ textarea:hover {
 #footer p {
 	color: #fff;
 	text-align: center;
-	margin-top: 3em;
-	margin-bottom: 5%;
+	margin-top: 0em;
+	margin-bottom: 0%;
 }
 
 .pc-not {
