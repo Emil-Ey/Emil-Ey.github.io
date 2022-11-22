@@ -134,6 +134,7 @@ html {
 	width: 45%;
 	left: 6%;
 	top: 5em;
+	border-radius: 30px 30px 00px 00px;
 }
 
 #lead-content {
@@ -221,8 +222,8 @@ html {
 	max-width: 700px;
 	margin: 0 auto 3% auto;
 	padding: 1%;
-	border: 2px solid #d1eeff;
-	background: rgb(103, 119, 150);
+	border: none;
+	background: rgb(106, 122, 155);
 	text-align: left;
 	border-radius: 10px;
 }
@@ -239,7 +240,7 @@ html {
 	float: right;
 }
 
-.education-block h4, .work-block h4 {
+.education-block h4, .work-block h5 {
 	color: #e0e0e0;
 	clear: both;
 	font-weight: 500;
@@ -247,13 +248,15 @@ html {
 }
 
 .education-block p,
-.education-block ul {
+.education-block ul,
+.work-block p,
+.work-block ul {
 	margin: 0;
 	color: #e0e0e0;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
-.education-block ul {
+.education-block ul, .work-block ul {
 	padding: 0 0 0 2%;
 }
 
@@ -565,9 +568,8 @@ textarea:hover {
 #footer {
 	padding: 2%;
 	padding-bottom: 0;
-	background-color: #374054;
-	min-height: 230px;
-	max-height: 350px;
+	 background-color: #374054;
+	height: auto;
 	margin-top: 0;
 }
 
@@ -578,7 +580,7 @@ textarea:hover {
 	align-items: center;
 	margin: 1% auto 0 auto;
 	width: 100%;
-	max-width: 600px;
+	max-width: 300px;
 }
 
 .social-links a {
@@ -592,7 +594,7 @@ textarea:hover {
 }
 
 .social-links a:hover {
-	transform: rotate(360deg) scale(1.4);
+	transform: scale(1.4);
 	color: #000;
 }
 
@@ -612,16 +614,13 @@ textarea:hover {
 	color: #fff;
 }
 
-.social-links a.facebook {
-	border-color: #fff;
-	color: #fff;
-}
-
 #footer p {
 	color: #fff;
 	text-align: center;
 	margin-top: 0em;
 	margin-bottom: 0%;
+	margin-top: -5%;
+	padding-bottom: 5px;
 }
 
 .pc-not {
