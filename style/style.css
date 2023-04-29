@@ -8,6 +8,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+html, body {
+  height: 98%;
+}
+
 body {
 	font-family: "Lato", sans-serif;
 	position: relative;
@@ -134,7 +138,7 @@ html {
 	width: 45%;
 	left: 6%;
 	top: 5em;
-	border-radius: 30px 30px 00px 00px;
+	border-radius: 00px 30px 00px 30px;
 }
 
 #lead-content {
@@ -309,6 +313,7 @@ html {
 #projects {
 	background: rgb(55,64,84);
 	background: linear-gradient(180deg, rgba(55,64,84,1) 0%, rgba(88,101,128,1) 100%); 
+  padding-bottom: 50px;
 }
 
 #projects-inner {
